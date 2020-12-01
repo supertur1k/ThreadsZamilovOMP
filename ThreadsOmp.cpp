@@ -8,7 +8,7 @@ using namespace std;
 int setLength1, setLength2, setLength3, setLength4;
 int* A1, * A2, * A3, * A4;
 
-
+// 6 Вариант Замилов А.Р.
 // Основной метод вычисления декартового произведения
 void DoWork(int begin, int end, list<int*>& multiply)
 {
