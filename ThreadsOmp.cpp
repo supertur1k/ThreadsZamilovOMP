@@ -116,10 +116,6 @@ int main()
         multiply[i] = list<int*>();
         DoWork(begin, end, multiply[i]);
         begin = end;
-#pragma omp critical 
-        {
-            cout << "thread " << omp_get_thread_num() << endl;
-        }
     }
 
     // Собираем перемножения распределенные среди первого множества по потокам во едино.
